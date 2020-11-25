@@ -3,7 +3,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: white;
     color: white;
   }
   
@@ -89,14 +89,17 @@ body {
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
-    top: 1300px;
+    font-family:"copperplate";
+    top: 1200px;
     position: relative;
+    color: black;
     }
   
   .price {
     color: grey;
     font-size: 22px;
+    color: black;
+    font-family:"copperplate";
   }
   
   .card button {
@@ -109,10 +112,20 @@ body {
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    font-family:"copperplate";
   }
   
   .card button:hover {
     opacity: 0.7;
+  }
+  
+  .varol {
+    text-align: center;
+    position: relative;
+    color: black;
+    top: 1150px;
+    font-size: 20px;
+    font-family:"copperplate";
   }
 
   @keyframes fadeIn {

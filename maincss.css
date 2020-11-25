@@ -4,7 +4,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
-    color: black;
+    color: white;
   }
   
   .topnav {
@@ -171,7 +171,12 @@ body {
     height: 150px;
     margin-top: 1000px;
     background-color: black;
-}
+  }
+
+  .omoss {
+    position: relative;
+    top: 100px;
+  }
 
   @keyframes fadeIn {
     0% {

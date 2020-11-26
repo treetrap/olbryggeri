@@ -178,6 +178,14 @@ body {
     top: 100px;
   }
 
+  .footer2 {
+    clear: both;
+    position: relative;
+    height: 150px;
+    margin-top: 200px;
+    background-color: black;
+  }
+
   @keyframes fadeIn {
     0% {
       opacity:0;
